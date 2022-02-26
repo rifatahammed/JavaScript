@@ -11,7 +11,7 @@ function setup() {
 
 function draw() {
   speed = map(mouseX, 0, width, 0, 50);
-  background(0);
+  background(0); // this means black bg
   translate(width / 2, height / 2);
   for (var i = 0; i < stars.length; i++) {
     stars[i].update();
